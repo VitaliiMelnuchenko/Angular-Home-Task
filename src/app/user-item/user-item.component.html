@@ -1,1 +1,17 @@
-<p>user-item works!</p>
+
+    <li class="list-group-item">
+        <div class="row">
+            <div class="col-sm-6">
+                <img class="user-img mr-3" src="{{ userInfo.avatar_url }}" alt="">
+                <span>{{ userInfo.login }}</span>
+            </div>  
+            <div class="col-sm-6 d-flex flex-column align-items-end">
+                <div>
+                    <a [routerLink]="[ userInfo.login ]">View Details</a>
+                </div>
+                <div>
+                    <a href="{{ userInfo.html_url }}">Open on Github</a>
+                </div>    
+            </div>       
+        </div>
+    </li>
