@@ -1,26 +1,32 @@
 .user-box {
-    border: 2px solid #E47E39;
+    border: 2px solid #007271;
 }
 
 .user-box-header {
-    border-bottom: 1px solid #E47E39;
+    border-bottom: 1px solid #007271;
 }
 
 .repo-list {
     margin: 0px auto;
     width: 95%;
-    border-top: 1px solid #E47E39;
+    border-top: 1px solid #007271;
 }
 
 li {
-    border-bottom: 1px solid #aaa;
-    margin-bottom: 1em;
+    list-style: none;
+    font-size: 1.3em; 
+    margin-bottom: 1.5em;
     width: 85%;
-    max-width: 250px;
+    max-width: 400px;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.7);
 }
 
 .user-img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
+}
+
+.far {
+    margin-right: 1em; 
 }

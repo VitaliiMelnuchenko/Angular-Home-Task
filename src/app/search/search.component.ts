@@ -17,7 +17,7 @@ export class SearchComponent implements OnInit {
   onSubmit(form: NgForm) {
     console.log(form.value.username);
     let url = 'https://api.github.com/search/users?q=' + form.value.username;
-    this.usersService.getUsers();
+    this.usersService.setUsers(url);
   }
 
 }
